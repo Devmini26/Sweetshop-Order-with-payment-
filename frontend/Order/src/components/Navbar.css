@@ -1,0 +1,107 @@
+.navbar {
+  background-color: #f6f1f3;
+  padding: 2rem 1rem;
+  border-bottom: 1px solid #fb6db6;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+  text-decoration: none;
+}
+
+.navbar-toggler {
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.navbar-toggler-icon {
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  vertical-align: middle;
+  content: "";
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  background-size: 1.5em 1.5em;
+}
+
+.navbar-nav {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end; /* Aligns items to the right */
+  align-items: center;
+  margin-left: auto; /* Pushes the links to the right */
+}
+
+.nav-item {
+  margin-right: 20px;
+}
+
+.nav-link {
+  color: #333;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.nav-link:hover {
+  color: #337ab7;
+}
+
+.nav-link.active {
+  color: #337ab7;
+}
+
+.forms-control {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #333;
+  background-color: #c4bec1;
+  background-clip: padding-box;
+  border: 1px solid #ddd;
+  border-radius: 0.25rem;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.forms-control:focus {
+  border-color: #337ab7;
+  box-shadow: 0 0 0 0.2rem rgba(51, 122, 183, 0.5);
+}
+
+.btn {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #333;
+  background-color: #fff;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #a2b0bc;
+  color: #fff;
+}
+
+.btn-outline-success {
+  color: #337ab7;
+  border-color: #337ab7;
+}
+
+.btn-outline-success:hover {
+  background-color: #8498aa;
+  color: #fff;
+}
+
+/* Align the profile image to the right */
+.profile-image {
+  margin-left: 20px;
+  margin-right: 0;
+}

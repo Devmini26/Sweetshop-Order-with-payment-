@@ -1,0 +1,133 @@
+/* Main container styling */
+.sweet-menu-container {
+  background-color: rgb(250, 208, 230);
+  padding: 20px;
+}
+
+/* Pop-up overlay styling */
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.popup {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.popup h2 {
+  margin-bottom: 10px;
+}
+
+.popup p {
+  margin-bottom: 20px;
+}
+
+.popup button {
+  padding: 10px 20px;
+  background-color: #d02d76;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.popup button:hover {
+  background-color: #7b022c;
+}
+
+/* Search bar styling */
+.search-bar {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.search-bar input {
+  padding: 10px;
+  width: 50%; /* Adjust the width to fit the design */
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+/* Sweet grid layout */
+.sweets-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 columns for a 4x2 layout */
+  grid-template-rows: repeat(2, auto); /* 2 rows */
+  gap: 30px;
+  justify-items: center;
+}
+
+/* Sweet card styling */
+.sweet-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  width: 200px; /* Adjusted card width for better fit */
+  transition: border 0.3s ease; /* Smooth transition for the border */
+}
+
+/* Selected sweet card styling */
+.sweet-card.selected {
+  border: 3px solid rgb(250, 8, 125); /* Pink outline for selected items */
+}
+
+.sweet-image {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.sweet-name {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.sweet-price {
+  font-size: 16px;
+  color: #888;
+  margin-bottom: 10px;
+}
+
+.popup-image {
+  max-width: 90%; /* Adjust as needed */
+  max-height: 200px; /* Set a maximum height */
+  height: auto; /* Maintain the aspect ratio */
+  margin-top: 10px; /* Space between the title and the image */
+  display: block; /* Centering if needed */
+  margin-left: auto;
+  margin-right: auto; /* Center the image */
+  border-radius: 20px;
+}
+
+/* Add to Cart button styling */
+.add-to-cart-button {
+  padding: 10px 20px;
+  background-color: rgb(249, 62, 155); /* Pink background color */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: block; /* Make it a block element to center it */
+  margin: 20px auto; /* Center it horizontally */
+  font-size: 16px;
+}
+
+.add-to-cart-button:hover {
+  background-color: #d03e84; /* Darker shade on hover */
+}
